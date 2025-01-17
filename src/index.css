@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Custom";
+    src: url("/src/Font/PlaywriteTZGuides-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Custom1";
+    src: url("/src/Font/Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Custom2";
+    src: url("/src/Font/Pacifico-Regular.ttf");
+}

@@ -3,7 +3,7 @@ import React, {useState} from "react";
 const FolderItem = ({ folder, onNavigate, onDelete, onRename }) => {
   const [dots,setDots] = useState(false)
   return (
-    <div className="flex flex-col w-36 rounded-lg justify-cente relative p-2 -mt-">
+    <div className="flex flex-col w-36 rounded-lg justify-cente relative p-2">
       <div
         onClick={() => onNavigate(folder)}
         className="cursor-pointer text-lg font-medium text-center"

@@ -4,7 +4,7 @@ const FileItem = ({ file, onDelete, onRename }) => {
     const [dots,setDots] = useState(false)
   
   return (
-    <div className="flex flex-col w-36 text-center justify-center relative -mt-9">
+    <div className="flex flex-col w-36 text-center justify-center relative ">
       <i className="fa-regular fa-file text-9xl"></i>
         <h1 className=" w-full text-center mt-1">{file.name}</h1>
         <div className="absolute top-1 right-1 ">
